@@ -206,24 +206,6 @@ aside .sidebar a:last-child{
     width: 100%;
 }
 
-aside .sidebar a.active{
-    background-color: var(--color-light);
-    color: var(--color-primary);
-    margin-left: 0;
-}
-
-aside .sidebar a.active:before{
-   content: '';
-   width: 6px;
-   height: 100%;
-   background-color: var(--color-primary);
-}
-
-aside .sidebar a.active span{
-    color: var(--color-primary);
-    margin-left: calc(1rem - 3px);
-}
-
 aside .sidebar a:hover{
     color: var(--color-primary);
 }
@@ -711,7 +693,7 @@ main .recent-orders a{
         .right .top .theme-toggler{
             width: 4.4rem;
             position: absolute;
-            left: 72%;
+            left: 65%;
         }
 
         .right .profile .info{
